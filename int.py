@@ -68,7 +68,7 @@ def sendCode(phone: str, pass_key: str = None) -> dict:
     return loads(enc.decryption(sendReq(Utils.url, json=data).get('data_enc')))
 
 
-phone_number = "09156820183"
+phone_number = "09150000000"
 password = None
 
 print(sendCode(phone_number, pass_key=password))
